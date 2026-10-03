@@ -1,7 +1,7 @@
 package listasimpleeliminación.entidad;
 
 public class ListaUniEnlazada {
-    private Nodo ptr;
+    private Nodo ptr = null;
     
     public void insertarFinal(int x) {
         Nodo nuevo = new Nodo(x); //Creamos el nodo nuevo a insertar
